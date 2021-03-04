@@ -1,0 +1,11 @@
+fig:nice-fig
+tab:nice-tab
+about-this-course
+course-topics
+intro
+literature
+methods
+applications
+example-one
+example-two
+final-words

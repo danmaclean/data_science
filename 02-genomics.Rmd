@@ -1,0 +1,20 @@
+# Introduction to Genomics
+
+Genomics is a big field with wide use within biology. On the Plant Health M.Sc you are going to learn about a lot of applications of genomics technologies and data science skills underpin _all_ of those applications and analysis. So in this first, foundational topic we will look at how to run a basic genomics SNP calling pipeline on the Linux command line. This will include developing the basic skills to use the computer from the command line.
+
+
+
+## The materials
+
+As a source for this we will follow the excellent Data Carpentry Genomics Curriculum [https://datacarpentry.org/lessons/#genomics-workshop](https://datacarpentry.org/lessons/#genomics-workshop). We will do the following two lessons
+
+
+  1. [Shell Genomics](https://datacarpentry.org/lessons/#genomics-workshop)
+  2. [Data Wrangling and Processing for Genomics](https://datacarpentry.org/wrangling-genomics/)
+    
+
+## For you to do
+
+TODO: Check with SB: about logistics, place and machines and timetables etc
+TODO: Schedule this one with contact time first
+
