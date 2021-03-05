@@ -80,7 +80,7 @@
 
 \title{A Data Science Course}
 \author{Dan MacLean}
-\date{2021-03-04}
+\date{2021-03-05}
 
 \begin{document}
 \maketitle
@@ -140,7 +140,7 @@ At first thought, you may imagine that data science is not going to be of much i
 \begin{figure}
 \centering
 \includegraphics{starwars-rey-rstats.png}
-\caption{\label{fig:unnamed-chunk-2}Artwork by \href{https://github.com/allisonhorst}{AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-2}Artwork from \href{https://twitter.com/juliesquid}{@juliesquid} for \href{https://twitter.com/openscapes}{@openscapes} (illustrated by \href{https://twitter.com/allison_horst}{@allison\_horst})}
 \end{figure}
 
 \hypertarget{all-experimental-science-is-data-science-sooner-or-later}{%
@@ -193,7 +193,7 @@ In this topic we will explore techniques in R that allow us answer research ques
 \begin{figure}
 \centering
 \includegraphics{r_first_then.png}
-\caption{\label{fig:unnamed-chunk-3}Artwork by \href{https://github.com/allisonhorst}{AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-3}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-1}{%
@@ -219,20 +219,136 @@ TODO: Add in AHorst figures and rewrite challenges, tidy tuesdays?
 \hypertarget{understanding-statistics-with-linear-models}{%
 \chapter{Understanding Statistics With Linear Models}\label{understanding-statistics-with-linear-models}}
 
+In this topic we will take a look at common statistical methods. Rather than launch into a long list of tests and conditions for use that seems arbitrary we will take advantage of the fact that they are all special cases of a simple tool called a linear model. We will learn about linear models and how to use them to carry out statistical inference. By the end of this topic you will have a clear understanding of how and why to use a linear model in R to carry out most test.
+
+\begin{figure}
+\centering
+\includegraphics{ex_4.png}
+\caption{\label{fig:unnamed-chunk-4}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\end{figure}
+
+\hypertarget{the-materials-2}{%
+\section{The materials}\label{the-materials-2}}
+
+For this topic we will use this course
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://danmaclean.github.io/intro_to_stats/}{Understanding Statistical Thinking With Linear Models}
+\end{enumerate}
+
+\hypertarget{for-you-to-do-2}{%
+\section{For you to do}\label{for-you-to-do-2}}
+
+TODO: Check with SB: about logistics, place and machines and timetables etc.
+TODO: Add in AHorst figures
+
 \hypertarget{introduction-to-non-frequentist-statistics}{%
 \chapter{Introduction to Non-Frequentist Statistics}\label{introduction-to-non-frequentist-statistics}}
+
+In this topic we will take a look at alternatives to the standard stattesting tools and models and learn how to make inferences from our data without tests. We will learn to abandon the \(p\)-value as a final arbiter of statistical correctness and see that it is not the only statistic that matters. We will look at using Bayesian inference to make comparisons of hypotheses about our data By the end of this course you will be able to use and interpret standardised effect sizes and create confidence intervals and estimation plots in R. You will be able to use an interpret Bayesian versions of some common statistical tests
+
+\begin{figure}
+\centering
+\includegraphics{p_value_mic_hog.jpg}
+\caption{\label{fig:unnamed-chunk-5}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\end{figure}
+
+\hypertarget{the-materials-3}{%
+\section{The materials}\label{the-materials-3}}
+
+For this topic we will use these courses
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://danmaclean.github.io/estimation_statistics/}{Estimation Statistics}
+\item
+  \href{https://danmaclean.github.io/bayes_factors/}{Bayesian Inference with Bayes Factors}
+\end{enumerate}
+
+\hypertarget{for-you-to-do-3}{%
+\section{For you to do}\label{for-you-to-do-3}}
+
+TODO: Check with SB: about logistics, place and machines and timetables etc.
+TODO: Add in AHorst figures and write challenges
 
 \hypertarget{introduction-to-machine-learning}{%
 \chapter{Introduction to Machine Learning}\label{introduction-to-machine-learning}}
 
+In this topic we will look at algorithms for performing machine learning as a way of classifying data into groups of similar or dissimilar items. We will use supervised and unsupervised methods in R. We will also study and use some deep learning methods. By the end of this course you will have an understanding of how and when to use classical machine learning in your research and an appreciation of what deep learning methods can achieve.
+
+\hypertarget{the-materials-4}{%
+\section{The Materials}\label{the-materials-4}}
+
+\hypertarget{for-you-to-do-4}{%
+\section{For you to do}\label{for-you-to-do-4}}
+
+TODO: Write
+TODO: Check with SB: about logistics, place and machines and timetables etc.
+TODO: write challenges
+
 \hypertarget{beginning-programming}{%
 \chapter{Beginning Programming}\label{beginning-programming}}
+
+Programming is an essential but tricky tool to master for all data scientists. Writing code comes in many guises and in this course up to now we've been writing code for specific tasks with a clear and present idea of what we want to get done. General programming concepts are often harder to grasp because of their generality, so in this topic we will study the general concepts that will allow us to program for a general problem. We will introduce the concepts and learn to use the implementations of them in the Python general purpose programming language. At the end of this topic you will be aware of the most important concepts in programming and how to use them in Python.
+
+\begin{figure}
+\centering
+\includegraphics{monster_for_loop.png}
+\caption{\label{fig:unnamed-chunk-6}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\end{figure}
+
+\hypertarget{the-materials-5}{%
+\section{The materials}\label{the-materials-5}}
+
+For this topic we will use these courses
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://danmaclean.github.io/tao_of_programming/}{A tao of programming}
+\item
+  \href{https://danmaclean.github.io/programming_with_python/}{Beginning Programming with Python}
+\end{enumerate}
+
+\hypertarget{for-you-to-do-5}{%
+\section{For you to do}\label{for-you-to-do-5}}
+
+TODO: Check with SB: about logistics, place and machines and timetables etc
+TODO: Schedule this one with contact time first
 
 \hypertarget{literate-computation}{%
 \chapter{Literate Computation}\label{literate-computation}}
 
+Sitting at a computer and typing commands is only of limited fun. Wrapping commands in scripts is a great way to re-do an analysis without having to type everything in again. But scripts are for computers to read, not humans, so understanding and interpreting an analysis rendered as code alone is not good for general understanding. In this course we'll look at tools and techniques for Literate Computation, a mixing of code, results and human language that results in easily understood executable and re-useable analysis documents. We will also look at tools and strategies for sharing and getting credit for your code and analysis. At the end of this topic you will have a good understanding of how to construct reproducible, reusable and readable analysis documents and how to share them online.
+
+\begin{figure}
+\centering
+\includegraphics{rmarkdown_wizards.png}
+\caption{\label{fig:unnamed-chunk-7}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\end{figure}
+
+\hypertarget{the-materials-6}{%
+\section{The materials}\label{the-materials-6}}
+
+\hypertarget{for-you-to-do-6}{%
+\section{For you to do}\label{for-you-to-do-6}}
+
+TODO: Check with SB: about logistics, place and machines and timetables etc
+TODO: Write.
+
 \hypertarget{projects}{%
 \chapter{Projects}\label{projects}}
+
+\hypertarget{acknowledgements}{%
+\chapter{Acknowledgements}\label{acknowledgements}}
+
+All of the artwork in this repo is by \citep[\textbackslash{}][]{allison_horst}(\url{https://twitter.com/allison_horst} and is licensed under a Creative Commons Attribution 4.0 International License.
 
   \bibliography{book.bib,packages.bib}
 

@@ -1,1 +1,11 @@
 # Introduction to Machine Learning
+
+In this topic we will look at algorithms for performing machine learning as a way of classifying data into groups of similar or dissimilar items. We will use supervised and unsupervised methods in R. We will also study and use some deep learning methods. By the end of this course you will have an understanding of how and when to use classical machine learning in your research and an appreciation of what deep learning methods can achieve.
+
+## The Materials
+
+## For you to do
+
+TODO: Write
+TODO: Check with SB: about logistics, place and machines and timetables etc.
+TODO:  write challenges

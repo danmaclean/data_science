@@ -4,4 +4,4 @@ language:
     chapter_name: "Section "
 output_dir: "docs"
 clean: ["docs", "intro_to_stats.md"]
-rmd_files: ["index.Rmd", "01-motivation.Rmd", "02-genomics.Rmd", "03-dataviz.Rmd", "04-stats.Rmd","05-nonfreq.Rmd", "06-ml.Rmd", "07-python.Rmd", "08-literacy.Rmd", "09-projects.Rmd"]
+rmd_files: ["index.Rmd", "01-motivation.Rmd", "02-genomics.Rmd", "03-dataviz.Rmd", "04-stats.Rmd","05-nonfreq.Rmd", "06-ml.Rmd", "07-python.Rmd", "08-literacy.Rmd", "09-projects.Rmd", "10-acknowledgements.Rmd"]

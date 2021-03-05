@@ -3,7 +3,7 @@
 
 At first thought, you may imagine that data science is not going to be of much interest to you, your desire and interest is in biology, not computers and mathematics. That may be true but data science is actually going to be one of the main technical themes throughout your entire scientific career and it will help you truly master your science and to become an informed and healthily sceptical interpreter of scientific results. Adding data science as your super power will be of benefit in lots of ways. Learning data science now isn't a tax on your time so that you can get through this M.Sc, it's a valuable investment in your skill set that will help to give you an advantage that will pay definite dividends later. Getting on with data science is like getting on with Jedi training for biologists
 
-```{r, fig.cap="Artwork by [AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+```{r, fig.cap="Artwork from [\\@juliesquid](https://twitter.com/juliesquid) for [\\@openscapes](https://twitter.com/openscapes) (illustrated by [\\@allison_horst](https://twitter.com/allison_horst))", echo=FALSE}
 knitr::include_graphics("starwars-rey-rstats.png")
 ```
 

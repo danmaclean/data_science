@@ -4,7 +4,7 @@ Data exploration and visualisation is the first step in most analyses and the R 
 
 In this topic we will explore techniques in R that allow us answer research questions of our data in a way that follows consistent and straightforward principles. We will learn a data format for keeping our research data organised so that we can readily apply all sorts of useful tools to it. We will also learn a grammar of plots that will allow us to make informative and clear figures. By the end of this you will be comfortable with using R to summarise and work with data frames and create a wide range of plots.
 
-```{r, fig.cap="Artwork by [AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
 knitr::include_graphics("r_first_then.png")
 ```
 
