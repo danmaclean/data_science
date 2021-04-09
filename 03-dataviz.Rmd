@@ -13,8 +13,8 @@ knitr::include_graphics("r_first_then.png")
 
 For this topic we will use these courses 
 
-  1. [dplyr](https://danmaclean.github.io/tidyversebook/index.html)
-  2. [ggplot2](https://danmaclean.github.io/ggplotbook/index.html)
+  1. [Using dplyr for data analysis](https://danmaclean.github.io/tidyversebook/index.html)
+  2. [Using ggplot2 to producing quality plots](https://danmaclean.github.io/ggplotbook/index.html)
 
 ## For you to do
 
