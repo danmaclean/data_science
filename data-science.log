@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  5 MAR 2021 12:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  9 APR 2021 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,7 +1112,7 @@ Chapter 10.
 Chapter 11.
 
 Package natbib Warning: Citation `allison_horst' on page 27 undefined on input 
-line 351.
+line 353.
 
 (./data-science.bbl [27] [28
 
@@ -1124,12 +1124,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
 [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
 (./data-science.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 355.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
  27562 strings out of 492916
