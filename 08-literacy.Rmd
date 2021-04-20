@@ -9,6 +9,9 @@ knitr::include_graphics("rmarkdown_wizards.png")
 
 ## The materials
 
+For this topic we will use this course:
+
+  1. [Literate Computing](https://danmaclean.github.io/literate_computing/)
 
 ## For you to do
 
