@@ -33,7 +33,6 @@ A course in data science and computing skills as part of The Sainsbury Laborator
 
 7. Literate Computation
    1. Reproducible Work
-   2. FAIR Data sharing
 
 8. Capstone Project
    1. Data Exploration and Analysis Group Project
