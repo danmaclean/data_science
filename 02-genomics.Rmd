@@ -11,7 +11,7 @@ As a source for this we will follow the excellent Data Carpentry Genomics Curric
 
   1. [Shell Genomics](https://datacarpentry.org/lessons/#genomics-workshop)
   2. [Data Wrangling and Processing for Genomics](https://datacarpentry.org/wrangling-genomics/)
-  3. [Genome, transcriptome and structural databases](https://danmaclean.github.io/databases/)
+  3. [Genome, Transcriptome and Structural Databases](https://danmaclean.github.io/databases/)
 
 ## For you to do
 
