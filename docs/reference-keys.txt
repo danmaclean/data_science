@@ -8,6 +8,7 @@ fig:unnamed-chunk-7
 about-this-course
 course-delivery
 online-materials
+installation-of-software-and-tools
 course-topics
 course-assessments
 intro

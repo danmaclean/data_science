@@ -31,6 +31,10 @@ Data Science is a set of practical research skills grounded in statistics and co
 
 The rest of this handbook outlines the online materials provided to you for this course, broken down by the separate topics we will cover. The materials are a mixture of self-led tutorials and interactive challenges or problems to solve.    
 
+## Installation of software and tools
+
+If you are using a TSL laptop specifically given to you for the MSc then all the software and tools you will need should already be installed on that machine. Each topic presents installation instructions for those not accessing the materials as part of the MSc. or for installation on personal machines should they be needed. 
+
 ## Course Topics
 
 We will cover the following topics in data science

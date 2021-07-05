@@ -4,8 +4,8 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -41,7 +41,8 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -50,7 +51,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -75,12 +76,15 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{A Data Science Course}
 \author{Dan MacLean}
-\date{2021-06-29}
+\date{2021-07-05}
 
 \begin{document}
 \maketitle
@@ -111,6 +115,11 @@ Data Science is a set of practical research skills grounded in statistics and co
 \section{Online materials}\label{online-materials}}
 
 The rest of this handbook outlines the online materials provided to you for this course, broken down by the separate topics we will cover. The materials are a mixture of self-led tutorials and interactive challenges or problems to solve.
+
+\hypertarget{installation-of-software-and-tools}{%
+\section{Installation of software and tools}\label{installation-of-software-and-tools}}
+
+If you are using a TSL laptop specifically given to you for the MSc then all the software and tools you will need should already be installed on that machine. Each topic presents installation instructions for those not accessing the materials as part of the MSc. or for installation on personal machines should they be needed.
 
 \hypertarget{course-topics}{%
 \section{Course Topics}\label{course-topics}}
@@ -172,7 +181,7 @@ As a source for this we will follow the excellent Data Carpentry Genomics Curric
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \href{https://datacarpentry.org/lessons/\#genomics-workshop}{Shell Genomics}
+  \href{https://datacarpentry.org/shell-genomics/}{Shell Genomics}
 \item
   \href{https://datacarpentry.org/wrangling-genomics/}{Data Wrangling and Processing for Genomics}
 \item
