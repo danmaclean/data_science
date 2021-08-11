@@ -2,12 +2,10 @@
 
 In this topic we will look at algorithms for performing machine learning as a way of classifying data into groups of similar or dissimilar items. We will use supervised and unsupervised methods in R. We will also study and use some deep learning methods. By the end of this course you will have an understanding of how and when to use classical machine learning in your research and an appreciation of what deep learning methods can achieve and their limitations.
 
-## The Materials
+## The materials
 
 [Introduction to Machine Learning](https://danmaclean.github.io/intro_to_ml/)
 
 ## For you to do
 
-TODO: Write
-TODO: Check with SB: about logistics, place and machines and timetables etc.
-TODO:  write challenges
+These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 

@@ -15,6 +15,7 @@ As a source for this we will follow the excellent Data Carpentry Genomics Curric
 
 ## For you to do
 
-TODO: Check with SB: about logistics, place and machines and timetables etc
-TODO: Schedule this one with contact time first
+Parts 1 (Shell Genomics) and 2 (Data Wrangling) will be full contact time instructor led courses. You should try reading the materials _before_ the course dates - it will help a great deal.
+
+Part 3 is mostly an interactive tutorial, please work through that _before_ the scheduled discussion session in which we will go over as a group any questions and problems you may have had working through the materials.
 

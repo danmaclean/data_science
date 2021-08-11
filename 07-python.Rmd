@@ -18,6 +18,7 @@ For this topic we will use these courses
   
 ## For you to do
 
-TODO: Check with SB: about logistics, place and machines and timetables etc
-TODO: Schedule this one with contact time first
+Part 1 (A tao of programming) will be delivered as a full contact instructor led-session. You should come to the scheduled session.
+
+Part 2 (Beginning programming with Python) will be delivered flipped classroom-style. That means it is led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 
   

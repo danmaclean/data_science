@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  5 JUL 2021 14:38
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  11 AUG 2021 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1110,6 +1110,12 @@ Chapter 7.
 Chapter 8.
 File: monster_for_loop.png Graphic file (type bmp)
 <monster_for_loop.png>
+
+Underfull \hbox (badness 1237) in paragraph at lines 333--334
+[]\TU/lmr/m/n/10 Part 2 (Beginning programming with Python) will be delivered f
+lipped
+ []
+
 [21] [22]
 Chapter 9.
 File: rmarkdown_wizards.png Graphic file (type bmp)
@@ -1126,7 +1132,7 @@ Chapter 10.
 Chapter 11.
 
 Package natbib Warning: Citation `allison_horst' on page 27 undefined on input 
-line 373.
+line 369.
 
 (./data-science.bbl [27] [28
 
@@ -1138,12 +1144,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
 [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
 (./data-science.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
  27619 strings out of 492916
