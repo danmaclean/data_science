@@ -36,5 +36,4 @@ for-you-to-do-5
 literate-computation
 the-materials-6
 for-you-to-do-6
-projects
 acknowledgements
