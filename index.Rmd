@@ -62,7 +62,7 @@ tibble::tibble(
     `Assessment` = c('Formative 1 (Essay)', 'Formative 2 (Data)', 'Summative 1 (Essay)', 'Summative 2 (Essay)'),
     `Deadline` = ymd(c("2021-12-1", "2021-12-15", "2022-1-12", "2022-1-22")),
     `Return Date` = ymd(c("2022-1-12", "2022-1-26", "2022-2-9", "2022-2-22")),
-    `Description` = c("link","link","link","link")
+    `Blackboard ID` = c("BIO-7046Y FM1","BIO-7046Y FM2","BIO-7046Y SM1","BIO-7046Y SM2")
     
 ) %>% 
     gt() %>% 
