@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  11 AUG 2021 09:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.28)  20 SEP 2021 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,49 +685,68 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip63
 \thm@headsep=\skip64
 \dth@everypar=\toks28
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+)
+\c@caption@flags=\count299
+\c@ContinuedFloat=\count300
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count299
+\c@NAT@ctr=\count301
 ) (./data-science.aux)
 \openout1 = `data-science.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 89.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 89.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 89.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 89.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 89.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 89.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 89.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 93.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -756,7 +775,7 @@ DFLT;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 89.
+(Font)              scaled to size 10.0pt on input line 93.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -794,17 +813,17 @@ DFLT;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 89.
+(Font)              scaled to size 10.0pt on input line 93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 89.
+(Font)              `operators' in the math version `normal' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 89.
+ line 93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 89.
+(Font)              `operators' in the math version `bold' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/bx/n on inp
-ut line 89.
+ut line 93.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -891,15 +910,15 @@ uage=DFLT;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 89.
+(Font)              `symbols' in the math version `normal' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 89.
+t line 93.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 89.
+(Font)              `symbols' in the math version `bold' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inp
-ut line 89.
+ut line 93.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -968,18 +987,18 @@ uage=DFLT;"
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 8
-9.
+(Font)              `largesymbols' in the math version `normal' on input line 9
+3.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 89.
+t line 93.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 89.
+(Font)              `largesymbols' in the math version `bold' on input line 93.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inp
-ut line 89.
-LaTeX Info: Redefining \microtypecontext on input line 89.
+ut line 93.
+LaTeX Info: Redefining \microtypecontext on input line 93.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -991,46 +1010,48 @@ File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 93.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count300
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 91.
+(Font)              scaled to size 12.0pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 91.
+(Font)              scaled to size 8.0pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 91.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 91.
+(Font)              scaled to size 6.0pt on input line 95.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 91.
+(Font)              scaled to size 12.00128pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 91.
+(Font)              scaled to size 8.00085pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 91.
+(Font)              scaled to size 6.00064pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 91.
+(Font)              scaled to size 11.99872pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 91.
+(Font)              scaled to size 7.99915pt on input line 95.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 91.
-LaTeX Font Info:    Try loading font information for U+msa on input line 91.
+(Font)              scaled to size 5.99936pt on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 91.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1067,70 +1088,80 @@ File: ex_1.png Graphic file (type bmp)
 <ex_1.png>
 [5
 
-] [6]
+]
+Overfull \hbox (111.7001pt too wide) in alignment at lines 152--164
+ [] [] [] [] 
+ []
+
+[6] [7]
+Overfull \hbox (29.38005pt too wide) in alignment at lines 170--186
+ [] [] [] 
+ []
+
+[8]
 Chapter 2.
 File: starwars-rey-rstats.png Graphic file (type bmp)
 <starwars-rey-rstats.png>
 
-Underfull \hbox (badness 1038) in paragraph at lines 156--156
+Underfull \hbox (badness 1038) in paragraph at lines 200--200
 []\TU/lmr/bx/n/14.4 All experimental science is data science
  []
 
-[7
+[9
 
-] [8] [9] [10
+] [10] [11] [12
 
 ]
 Chapter 3.
-[11] [12
+[13] [14
 
 ]
 Chapter 4.
 File: r_first_then.png Graphic file (type bmp)
 <r_first_then.png>
-[13] [14]
+[15] [16]
 Chapter 5.
 File: ex_4.png Graphic file (type bmp)
 <ex_4.png>
-[15
-
-] [16]
-Chapter 6.
-File: p_value_mic_hog.jpg Graphic file (type bmp)
-<p_value_mic_hog.jpg>
 [17
 
 ] [18]
-Chapter 7.
+Chapter 6.
+File: p_value_mic_hog.jpg Graphic file (type bmp)
+<p_value_mic_hog.jpg>
 [19
 
-] [20
+] [20]
+Chapter 7.
+[21
+
+] [22
 
 ]
 Chapter 8.
 File: monster_for_loop.png Graphic file (type bmp)
 <monster_for_loop.png>
-
-Underfull \hbox (badness 1237) in paragraph at lines 333--334
+[23]
+Underfull \hbox (badness 1237) in paragraph at lines 377--378
 []\TU/lmr/m/n/10 Part 2 (Beginning programming with Python) will be delivered f
 lipped
  []
 
-[21] [22]
+[24]
 Chapter 9.
 File: rmarkdown_wizards.png Graphic file (type bmp)
 <rmarkdown_wizards.png>
-[23
+[25
 
-] [24]
+] [26]
 Chapter 10.
 
-Package natbib Warning: Citation `allison_horst' on page 25 undefined on input 
-line 366.
+Package natbib Warning: Citation `allison_horst' on page 27 undefined on input 
+line 410.
 
-(./data-science.bbl [25
+(./data-science.bbl [27
 
-] [26
+] [28
 
 ]
 
@@ -1140,20 +1171,20 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
-[27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
 (./data-science.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 370.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 370.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 414.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 414.
  ) 
 Here is how much of TeX's memory you used:
- 27617 strings out of 492916
- 502854 string characters out of 6133345
- 719564 words of memory out of 5000000
- 31397 multiletter control sequences out of 15000+600000
- 538740 words of font info for 78 fonts, out of 8000000 for 9000
+ 28736 strings out of 492916
+ 523204 string characters out of 6133345
+ 742646 words of memory out of 5000000
+ 32506 multiletter control sequences out of 15000+600000
+ 538748 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,6n,115p,1085b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,9n,115p,1085b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on data-science.pdf (27 pages).
+Output written on data-science.pdf (29 pages).

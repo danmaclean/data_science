@@ -76,6 +76,10 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -84,7 +88,7 @@
 
 \title{A Data Science Course}
 \author{Dan MacLean}
-\date{2021-08-11}
+\date{2021-09-20}
 
 \begin{document}
 \maketitle
@@ -141,6 +145,46 @@ We will cover the following topics in data science
 
 The culmination of all this learning and practice will be a written essay and a data analysis project on which you will be assessed and receive a grade. These will be set during the course and deadlines will be given to you explicitly for each. You will not be formally assessed on other projects, quizzes and challenges occurring through the course.
 
+\hypertarget{deadlines}{%
+\subsection{Deadlines}\label{deadlines}}
+
+\captionsetup[table]{labelformat=empty,skip=1pt}
+\begin{longtable}{llll}
+\caption*{
+{\large Important Assessment Dates}
+} \\ 
+\toprule
+Assessment & Deadline & Return Date & Description \\ 
+\midrule
+Formative 1 (Essay) & Wednesday, December 1, 2021 & Wednesday, January 12, 2022 & link \\ 
+Formative 2 (Data) & Wednesday, December 15, 2021 & Wednesday, January 26, 2022 & link \\ 
+Summative 1 (Essay) & Wednesday, January 12, 2022 & Wednesday, February 9, 2022 & link \\ 
+Summative 2 (Essay) & Saturday, January 22, 2022 & Tuesday, February 22, 2022 & link \\ 
+ \bottomrule
+\end{longtable}
+
+\hypertarget{schedule}{%
+\section{Schedule}\label{schedule}}
+
+\captionsetup[table]{labelformat=empty,skip=1pt}
+\begin{longtable}{lll}
+\caption*{
+{\large Data Science Schedule 2021/2022}
+} \\ 
+\toprule
+Date & Session & Location \\ 
+\midrule
+Monday, October 4, 2021 13:00 & Course Intro and Intro to Genomics & Room?? \\ 
+Monday, October 11, 2021 13:00 & Intro to Genomics & Room?? \\ 
+Friday, October 29, 2021 13:00 & Data Exploration and Visualistion & Room?? \\ 
+Friday, November 12, 2021 13:00 & Understanding Statistics & Room?? \\ 
+Friday, November 26, 2021 13:00 & Literate Computation & Room?? \\ 
+Friday, December 10, 2021 13:00 & Beginning Programming & Room?? \\ 
+Friday, January 7, 2022 13:00 & Non-Frequentist Stats & Room?? \\ 
+Friday, January 21, 2022 13:00 & Machine Learning & Room?? \\ 
+ \bottomrule
+\end{longtable}
+
 \hypertarget{intro}{%
 \chapter{Why study data science?}\label{intro}}
 
@@ -149,7 +193,7 @@ At first thought, you may imagine that data science is not going to be of much i
 \begin{figure}
 \centering
 \includegraphics{starwars-rey-rstats.png}
-\caption{\label{fig:unnamed-chunk-2}Artwork from \href{https://twitter.com/juliesquid}{@juliesquid} for \href{https://twitter.com/openscapes}{@openscapes} (illustrated by \href{https://twitter.com/allison_horst}{@allison\_horst})}
+\caption{\label{fig:unnamed-chunk-4}Artwork from \href{https://twitter.com/juliesquid}{@juliesquid} for \href{https://twitter.com/openscapes}{@openscapes} (illustrated by \href{https://twitter.com/allison_horst}{@allison\_horst})}
 \end{figure}
 
 \hypertarget{all-experimental-science-is-data-science-sooner-or-later}{%
@@ -205,7 +249,7 @@ In this topic we will explore techniques in R that allow us answer research ques
 \begin{figure}
 \centering
 \includegraphics{r_first_then.png}
-\caption{\label{fig:unnamed-chunk-3}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-5}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-1}{%
@@ -235,7 +279,7 @@ In this topic we will take a look at common statistical methods. Rather than lau
 \begin{figure}
 \centering
 \includegraphics{ex_4.png}
-\caption{\label{fig:unnamed-chunk-4}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-6}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-2}{%
@@ -263,7 +307,7 @@ In this topic we will take a look at alternatives to the standard stattesting to
 \begin{figure}
 \centering
 \includegraphics{p_value_mic_hog.jpg}
-\caption{\label{fig:unnamed-chunk-5}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-7}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-3}{%
@@ -308,7 +352,7 @@ Programming is an essential but tricky tool to master for all data scientists. W
 \begin{figure}
 \centering
 \includegraphics{monster_for_loop.png}
-\caption{\label{fig:unnamed-chunk-6}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-8}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-5}{%
@@ -340,7 +384,7 @@ Sitting at a computer and typing commands is only of limited fun. Wrapping comma
 \begin{figure}
 \centering
 \includegraphics{rmarkdown_wizards.png}
-\caption{\label{fig:unnamed-chunk-7}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
+\caption{\label{fig:unnamed-chunk-9}Artwork by \href{https://github.com/allisonhorst}{@AllisonHorst}}
 \end{figure}
 
 \hypertarget{the-materials-6}{%

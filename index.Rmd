@@ -50,3 +50,47 @@ We will cover the following topics in data science
 ## Course Assessments
 
 The culmination of all this learning and practice will be a written essay and a data analysis project on which you will be assessed and receive a grade. These will be set during the course and deadlines will be given to you explicitly for each. You will not be formally assessed on other projects, quizzes and challenges occurring through the course.
+
+### Deadlines
+
+```{r,echo=FALSE, warning =FALSE, message=FALSE}
+library(lubridate)
+library(magrittr)
+library(gt)
+
+tibble::tibble(
+    `Assessment` = c('Formative 1 (Essay)', 'Formative 2 (Data)', 'Summative 1 (Essay)', 'Summative 2 (Essay)'),
+    `Deadline` = ymd(c("2021-12-1", "2021-12-15", "2022-1-12", "2022-1-22")),
+    `Return Date` = ymd(c("2022-1-12", "2022-1-26", "2022-2-9", "2022-2-22")),
+    `Description` = c("link","link","link","link")
+    
+) %>% 
+    gt() %>% 
+        tab_header(
+            title = "Important Assessment Dates"
+        ) %>% 
+        fmt_date(
+            columns = c(Deadline, `Return Date`)
+        ) 
+    
+
+```
+
+## Schedule
+
+```{r, echo=FALSE, warning=FALSE, Message=FALSE}
+tibble::tibble(
+    `Date` = c("2021-10-04 13:00", "2021-10-11 13:00", "2021-10-29 13:00", "2021-11-12 13:00", "2021-11-26 13:00", "2021-12-10 13:00", "2022-1-7 13:00", "2022-1-21 13:00" ),
+    `Session` = c("Course Intro and Intro to Genomics", "Intro to Genomics", "Data Exploration and Visualistion", "Understanding Statistics", "Literate Computation", "Beginning Programming", "Non-Frequentist Stats", "Machine Learning"),
+    `Location` = c(rep("Room??", 8))
+)     %>% 
+
+gt() %>% 
+        tab_header(
+            title = "Data Science Schedule 2021/2022"
+        ) %>% 
+        fmt_datetime(
+            columns = c(Date)
+        ) 
+
+```
