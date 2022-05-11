@@ -1,0 +1,296 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "data_science",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "intro.html#all-experimental-science-is-data-science-sooner-or-later",
+    "href": "intro.html#all-experimental-science-is-data-science-sooner-or-later",
+    "title": "Why Care About Data Science",
+    "section": "All experimental science is data science sooner or later",
+    "text": "All experimental science is data science sooner or later\n“Data Science” is a new-ish term that describes an interdisciplinary approach to the practical application of statistics and computer science concepts and tools. The term data scientist is most often applied to people who analyse large amounts of high throughput data full time and have a research or industrial interest in that but the techniques of data science are useful to all researchers, data science is useful to biologists. There is no such thing as a purely lab- or field-based biologist, once our data are collected we must use it in a computer to perform analyses, draw conclusions and draw figures. All modern scientists are at some point a data scientist, irrespective of field and training. Knowledge of data science techniques will therefore underpin everything you do as a scientist at the most fundamental level, from experimental design, data collection, analysis and interpretation of results. A scientist that lacks data science skills will find it very difficult to progress beyond the most basic levels of expertise in experimental analysis."
+  },
+  {
+    "objectID": "intro.html#biology-is-getting-bigger",
+    "href": "intro.html#biology-is-getting-bigger",
+    "title": "Why Care About Data Science",
+    "section": "Biology is getting bigger",
+    "text": "Biology is getting bigger\nAll biological disciplines including genomics and genetics, microscopy, biochemistry and proteomics generate volumes of data that are too great to handle by a scientist armed only with a clipboard and spreadsheet, no matter how hard working they are. At the heart of data science are the techniques for dealing with the biggest data sets yet generated and learning just a little about them will stand you in good stead across your entire career."
+  },
+  {
+    "objectID": "intro.html#data-science-methods-are-21st-century-realisations-of-the-scientific-method",
+    "href": "intro.html#data-science-methods-are-21st-century-realisations-of-the-scientific-method",
+    "title": "Why Care About Data Science",
+    "section": "Data science methods are 21st Century realisations of the scientific method",
+    "text": "Data science methods are 21st Century realisations of the scientific method\nReproducibility and clear description of process is the keystone of the scientific method, using point and click tools to carry out analyses often do nothing to help you reach this goal but many data science techniques are built with these qualities as a primary design principle and can help to reduce your workload by helping you to do things reproducibly over and again with ease. They can help you share and report on your research and data in a way that is transparent and clear to the reader. They can also help you make the data and analysis you have generated shareable and findable by others."
+  },
+  {
+    "objectID": "genomics.html#the-materials",
+    "href": "genomics.html#the-materials",
+    "title": "1  Introduction to Genomics",
+    "section": "1.1 The materials",
+    "text": "1.1 The materials\nAs a source for this we will follow the excellent Data Carpentry Genomics Curriculum https://datacarpentry.org/lessons/#genomics-workshop. We will do the following two lessons\n\nShell Genomics\nData Wrangling and Processing for Genomics\n\nWe will also use these materials\n\nGenome, Transcriptome and Structural Databases"
+  },
+  {
+    "objectID": "genomics.html#for-you-to-do",
+    "href": "genomics.html#for-you-to-do",
+    "title": "1  Introduction to Genomics",
+    "section": "1.2 For you to do",
+    "text": "1.2 For you to do\nParts 1 (Shell Genomics) and 2 (Data Wrangling) will be full contact time instructor led bootcamp courses. You should try reading the materials before the course dates - it will help a great deal.\nPart 3 is mostly an interactive tutorial, please work through that before the scheduled discussion session in which we will go over as a group any questions and problems you may have had working through the materials."
+  },
+  {
+    "objectID": "dataviz.html#the-materials",
+    "href": "dataviz.html#the-materials",
+    "title": "2  Data Exploration and Visualisation",
+    "section": "2.1 The materials",
+    "text": "2.1 The materials\nFor this topic we will use these courses\n\nUsing dplyr for data analysis\nUsing ggplot2 for producing quality plots"
+  },
+  {
+    "objectID": "dataviz.html#for-you-to-do",
+    "href": "dataviz.html#for-you-to-do",
+    "title": "2  Data Exploration and Visualisation",
+    "section": "2.2 For you to do",
+    "text": "2.2 For you to do\nThese topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "stats.html#the-materials",
+    "href": "stats.html#the-materials",
+    "title": "3  Understanding Statistics With Linear Models",
+    "section": "3.1 The materials",
+    "text": "3.1 The materials\nFor this topic we will use this course\n\nUnderstanding Statistical Thinking With Linear Models"
+  },
+  {
+    "objectID": "stats.html#for-you-to-do",
+    "href": "stats.html#for-you-to-do",
+    "title": "3  Understanding Statistics With Linear Models",
+    "section": "3.2 For you to do",
+    "text": "3.2 For you to do\nThese topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "nonfreq.html#the-materials",
+    "href": "nonfreq.html#the-materials",
+    "title": "4  Introduction to Non-Frequentist Statistics",
+    "section": "4.1 The materials",
+    "text": "4.1 The materials\nFor this topic we will use these courses\n\nEstimation Statistics\nBayesian Inference with Bayes Factors"
+  },
+  {
+    "objectID": "nonfreq.html#for-you-to-do",
+    "href": "nonfreq.html#for-you-to-do",
+    "title": "4  Introduction to Non-Frequentist Statistics",
+    "section": "4.2 For you to do",
+    "text": "4.2 For you to do\nThese topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "ml.html#the-materials",
+    "href": "ml.html#the-materials",
+    "title": "5  Introduction to Machine Learning",
+    "section": "5.1 The materials",
+    "text": "5.1 The materials\nFor this topic we will use these courses\n\nIntroduction to Machine Learning"
+  },
+  {
+    "objectID": "ml.html#for-you-to-do",
+    "href": "ml.html#for-you-to-do",
+    "title": "5  Introduction to Machine Learning",
+    "section": "5.2 For you to do",
+    "text": "5.2 For you to do\nThese topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "python.html#the-materials",
+    "href": "python.html#the-materials",
+    "title": "6  Beginning Programming",
+    "section": "6.1 The materials",
+    "text": "6.1 The materials\nFor this topic we will use these courses\n\nA tao of programming\nBeginning programming with Python"
+  },
+  {
+    "objectID": "python.html#for-you-to-do",
+    "href": "python.html#for-you-to-do",
+    "title": "6  Beginning Programming",
+    "section": "6.2 For you to do",
+    "text": "6.2 For you to do\nPart 1 (A tao of programming) will be delivered as a full contact instructor led-session. You should come to the scheduled session.\nPart 2 (Beginning programming with Python) will be delivered flipped classroom-style. That means it is led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "literacy.html#the-materials",
+    "href": "literacy.html#the-materials",
+    "title": "8  Literate Computation",
+    "section": "8.1 The materials",
+    "text": "8.1 The materials\nFor this topic we will use this course:\n\nLiterate Computing"
+  },
+  {
+    "objectID": "literacy.html#for-you-to-do",
+    "href": "literacy.html#for-you-to-do",
+    "title": "8  Literate Computation",
+    "section": "8.2 For you to do",
+    "text": "8.2 For you to do\nThese topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics."
+  },
+  {
+    "objectID": "index.html#course-delivery",
+    "href": "index.html#course-delivery",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Course Delivery",
+    "text": "Course Delivery\nData Science is a set of practical research skills grounded in statistics and computer science. Learning a practical skill requires practice! So this course is not a lecture course, it is a ‘flipped’ classroom course with a very strong practical component. In a flipped classroom the onus is on the student to lead their work and practice with the provided materials prior to contact and discussion time with the wider learning group and group mentors. To get the most out of this course you must read the relevant online material before you come to the contact sessions. Contact time will then be an opportunity to discuss the materials and any problems arising with the group and the teacher and to practice and problem solve with others. The aim is that by the end of the course you will have a strong practical grounding in applying data science approaches to research problems that will enhance the biology that you are doing."
+  },
+  {
+    "objectID": "index.html#online-materials",
+    "href": "index.html#online-materials",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Online Materials",
+    "text": "Online Materials\nThe rest of this handbook outlines the online materials provided to you for this course, broken down by the separate topics we will cover. The materials are a mixture of self-led tutorials and interactive challenges or problems to solve."
+  },
+  {
+    "objectID": "index.html#installation-of-software-and-tools",
+    "href": "index.html#installation-of-software-and-tools",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Installation of software and tools",
+    "text": "Installation of software and tools\nIf you are using a TSL laptop specifically given to you for the MSc then all the software and tools you will need should already be installed on that machine. Each topic presents installation instructions for those not accessing the materials as part of the MSc or for installation on other or personal machines should they be needed."
+  },
+  {
+    "objectID": "index.html#course-topics",
+    "href": "index.html#course-topics",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Course Topics",
+    "text": "Course Topics\nWe will cover the following topics in data science\n1. Introduction to Genomics\n2. Data Exploration and Visualisation\n3. Understanding Statistics With Linear Models\n4. Introduction to Non-Frequentist Statistics\n5. Introduction to Machine Learning\n6. Beginning Programming\n7. Literate Computation"
+  },
+  {
+    "objectID": "index.html#course-assessments",
+    "href": "index.html#course-assessments",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Course Assessments",
+    "text": "Course Assessments\nThe culmination of all this learning and practice will be a written essay and a data analysis project on which you will be assessed and receive a grade. These will be set during the course and deadlines will be given to you explicitly for each. You will not be formally assessed on other projects, quizzes and challenges occurring through the course.\n\nDeadlines\nHere are the course deadlines for the 2021/2022 year.\n\n\n\n\n\n  \n    \n      Important Assessment Dates\n    \n    \n  \n  \n    \n      Assessment\n      Deadline\n      Return Date\n      Blackboard ID\n    \n  \n  \n    Formative 1 (Essay)\nWednesday, December 1, 2021\nWednesday, January 12, 2022\nBIO-7046Y FM1\n    Formative 2 (Data)\nWednesday, December 15, 2021\nWednesday, January 26, 2022\nBIO-7046Y FM2\n    Summative 1 (Essay)\nWednesday, January 12, 2022\nWednesday, February 9, 2022\nBIO-7046Y SM1\n    Summative 2 (Essay)\nSaturday, January 22, 2022\nTuesday, February 22, 2022\nBIO-7046Y SM2"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Data Science - Global Plant Health MSc Course",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n  \n    \n      Data Science Schedule 2021/2022\n    \n    \n  \n  \n    \n      Date\n      Session\n      Location\n    \n  \n  \n    Monday, October 18, 2021 09:30\nCourse Intro and Intro to Genomics\nRoom??\n    Friday, October 29, 2021 13:00\nIntro to Genomics and Databases\nRoom??\n    Friday, November 12, 2021 13:00\nData Exploration and Visualisation\nRoom??\n    Friday, November 19, 2021 13:00\nUnderstanding Statistics\nRoom??\n    Friday, November 26, 2021 13:00\nLiterate Computation\nRoom??\n    Friday, December 10, 2021 13:00\nBeginning Programming\nRoom??\n    Friday, January 7, 2022 13:00\nNon-Frequentist Stats\nRoom??\n    Friday, January 21, 2022 13:00\nMachine Learning\nRoom??"
+  },
+  {
+    "objectID": "topics.html",
+    "href": "topics.html",
+    "title": "Topics",
+    "section": "",
+    "text": "The topics we cover in this course are selected to be of the most use to you practically in your future science-related careers. They are delivered with a focus on the student becoming an informed and critical user of the tools rather than a domain specialist. The emphasis is on breadth and on the practical use of the skills discussed."
+  },
+  {
+    "objectID": "flippedclass.html",
+    "href": "flippedclass.html",
+    "title": "How to Learn With This Course",
+    "section": "",
+    "text": "The topics in this course will be delivered in one of three ways:\n\nBootcamp\nFlipped classroom\nOnline tutorial\n\nThe"
+  },
+  {
+    "objectID": "howtosucceed.html#a-thing-to-realise-about-this-course",
+    "href": "howtosucceed.html#a-thing-to-realise-about-this-course",
+    "title": "How To Succeed In This Course",
+    "section": "A thing to realise about this course",
+    "text": "A thing to realise about this course\nMuch of this course, especially the statistical part is designed to"
+  },
+  {
+    "objectID": "howtosucceed.html#how-to-make-the-most-of-the-course",
+    "href": "howtosucceed.html#how-to-make-the-most-of-the-course",
+    "title": "How To Succeed In This Course",
+    "section": "How to make the most of the course",
+    "text": "How to make the most of the course\nAs this course is designed to be a practical one, you’ll get the most out of it from practicing. The best way to do that is to come to the session prepared for the stuff that you need to practice. For the flipped classroom components especially, you should make sure that you have read the session materials linked from this site before the in-person session. This will mean that you will have had time to digest any new concepts and can concentrate on the application of them whilst doing the problem sets in class. Coming to the session to read and do the problem sets in one go will not be to your best advantage."
+  },
+  {
+    "objectID": "howtosucceed.html#how-to-work-together",
+    "href": "howtosucceed.html#how-to-work-together",
+    "title": "How To Succeed In This Course",
+    "section": "How to work together",
+    "text": "How to work together\nWorking together is actively encouraged in the sessions, discussing the subjects, the particular problems and mapping out solutions to problems is a great way to come to a better understanding of them. Try to do this vocally with partners or groups, or try to sketch ideas out on paper before committing individual code into the computer."
+  },
+  {
+    "objectID": "howtosucceed.html#how-not-to-get-a-good-mark",
+    "href": "howtosucceed.html#how-not-to-get-a-good-mark",
+    "title": "How To Succeed In This Course",
+    "section": "How not to get a good mark",
+    "text": "How not to get a good mark\nThe assessment of this course is through an essay and a practical analysis problem. By using Google and the"
+  },
+  {
+    "objectID": "howtosucceed.html#how-to-get-a-not-so-good-mark",
+    "href": "howtosucceed.html#how-to-get-a-not-so-good-mark",
+    "title": "How To Succeed In This Course",
+    "section": "How to get a not-so-good mark",
+    "text": "How to get a not-so-good mark\nThe assessment of this course is through an essay and a practical analysis problem. The sorts of problems you’ll be asked to solve are discussed very widely across the internet, so when you’re under time pressure you might be tempted to try a quick Google to see what those tutorials say and pull those methods into your work verbatim. Doing this not only runs the risk of University plagiarism rules, but also misses the point of much of the teaching. The course teaches some useful and particular ways of thinking about data science that are not so often developed in quick online tutorials. If you rely on the Google Copy and Paste strategy alone and don’t show evidence of learning from the TSL course your examiners will likely interpret this as a missed learning outcome."
+  },
+  {
+    "objectID": "howtosucceed.html#how-to-make-the-least-of-the-course",
+    "href": "howtosucceed.html#how-to-make-the-least-of-the-course",
+    "title": "How To Succeed In This Course",
+    "section": "How to make the least of the course",
+    "text": "How to make the least of the course\nA lot of people with biological training will have already gained some experience in statistical tests or linear models or other data science and bioinformatics. That is great and will be a big help. Some people with biological training who have gained experience of data science and statistical methods will have hated it and come to believe that the whole topic is not for them. Assuming that this course is just a restatement of prior material and that you already know it or that you will never know it are definite ways to miss the particular ways of thinking about data that this course will try to give you. Work with an open mind about what statistics and data science can bring to your science to avoid this."
+  },
+  {
+    "objectID": "howtosucceed.html#how-not-to-work-together",
+    "href": "howtosucceed.html#how-not-to-work-together",
+    "title": "How To Succeed In This Course",
+    "section": "How not to work together",
+    "text": "How not to work together\nWorking together should not spill over into assessment submission, code and text submitted for those should be your own work, typed in by your own hand. Copy and Paste from the internet or a shared solution will very likely run foul of University plagiarism rules."
+  },
+  {
+    "objectID": "flippedclass.html#bootcamp",
+    "href": "flippedclass.html#bootcamp",
+    "title": "How to Learn With This Course",
+    "section": "Bootcamp",
+    "text": "Bootcamp\nThe bootcamp style class is an instructor led practical session. You will be expected to follow an instructor who is teaching and live coding from the front of the class. This is not a lecture where you take notes - its a computer class where you work concurrently with the instructor as they exemplify the skills you will need to learn to use. Much more like a cookery class than a university lecture, the session proceeds with the instructor demonstrating how to do a specific computer-based skill and you try it out immediately. It is very, very useful to take the opportunity to read the materials for bootcamps before the session. Learning from this style requires you to be alert and engaged with the material in the session, not least you should put effort into joining in and being part of the group. Be prepared to make mistakes and be at peace with not knowing yet and being on a journey of learning. Sitting back and hoping to catch up with it later in your own time will put you behind and waste the opportunity of the session."
+  },
+  {
+    "objectID": "flippedclass.html#flipped-classroom",
+    "href": "flippedclass.html#flipped-classroom",
+    "title": "How to Learn With This Course",
+    "section": "Flipped classroom",
+    "text": "Flipped classroom\nThe ‘flipped’ classroom style here is one in which the reading is done by the student before the session. This gives time for reflection and understanding of the concepts such that they can be applied to solve the problem sets that come up in the session. The instructor will not conduct a comprehensive overview of the materials during the session, instead they will concentrate on issues arising in the application of the concepts. If you have not done the reading before the session then you will be behind from the start of the session and you will miss out on the opportunity. Learning from this style is requires you to lead and take responsibility for the learning before class and to work to apply the theoretical knowledge in the practical session."
+  },
+  {
+    "objectID": "flippedclass.html#online-tutorial",
+    "href": "flippedclass.html#online-tutorial",
+    "title": "How to Learn With This Course",
+    "section": "Online tutorial",
+    "text": "Online tutorial\nThe most traditional style of session will be the online tutorial in which you will work through an online guide with embedded quizzes and questions on a particular topic. The materials will be provided in the session. Learning from this style of session requires you to be thinking through the questions and reasoning to work out the answers with the materials provided."
+  },
+  {
+    "objectID": "flippedclass.html#jonk",
+    "href": "flippedclass.html#jonk",
+    "title": "How to Learn With This Course",
+    "section": "JONK",
+    "text": "JONK\nFor all learning you should embrace JONK - ‘Joy of Not Knowing’ (Staricoff 2020). Although you are at least a Post-Grad there are still a lot of things and skills to learn and you will spend a lot of time confused. This is fine. And expected, and a necessary part of learning - if it was easy you wouldn’t be learning anything. Over and over again you’ll fall into the metaphorical ‘Learning Pit’ (Nottingham 2015) and through working at a problem sincerely with a view to understanding you’ll reach real success - a good understanding of the topics you are learning about.\n\n\n\n\n\nArtwork from James Nottingham - https://www.challenginglearning.com\n\n\n\n\n\nThe dark side\nLots of people want to use data science and statistics so lots of people publish blog posts and tutorials on how to do a lot of the sort of things covered in this course across the internet. The useful and particular ways of thinking about data science that this course is aimed at helping you understand are not so often developed in the quick online tutorials. While quick tutorials can help you with an immediate coding problem, it can take a very long time to develop broad and flexible understanding of data science through just looking stuff up on the internet and applying them until they seem to work. Its a bit like buying car parts of the internet and hoping they all fit together into a working machine."
+  },
+  {
+    "objectID": "flippedclass.html#session-types",
+    "href": "flippedclass.html#session-types",
+    "title": "How to Learn With This Course",
+    "section": "Session types",
+    "text": "Session types\nThe topics in this course will be delivered in one of three ways:\n\nBootcamp\nFlipped classroom\nOnline tutorial\n\nEach type of class has a different emphasis and approach regardless of the topic under study.\n\nBootcamp\nThe bootcamp style class is an instructor led practical session. You will be expected to follow an instructor who is teaching and live coding from the front of the class. This is not a lecture where you take notes - its a computer class where you work concurrently with the instructor as they exemplify the skills you will need to learn to use. Much more like a cookery class than a university lecture, the session proceeds with the instructor demonstrating how to do a specific computer-based skill and you try it out immediately. It is very, very useful to take the opportunity to read the materials for bootcamps before the session. Learning from this style requires you to be alert and engaged with the material in the session, not least you should put effort into joining in and being part of the group. Be prepared to make mistakes and be at peace with not knowing yet and being on a journey of learning. Sitting back and hoping to catch up with it later in your own time will put you behind and waste the opportunity of the session.\n\n\nFlipped classroom\nThe ‘flipped’ classroom style here is one in which the reading is done by the student before the session. This gives time for reflection and understanding of the concepts such that they can be applied to solve the problem sets that come up in the session. The instructor will not conduct a comprehensive overview of the materials during the session, instead they will concentrate on issues arising in the application of the concepts. If you have not done the reading before the session then you will be behind from the start of the session and you will miss out on the opportunity. Learning from this style is requires you to lead and take responsibility for the learning before class and to work to apply the theoretical knowledge in the practical session.\n\n\nOnline tutorial\nThe most traditional style of session will be the online tutorial in which you will work through an online guide with embedded quizzes and questions on a particular topic. The materials will be provided in the session. Learning from this style of session requires you to be thinking through the questions and reasoning to work out the answers with the materials provided."
+  },
+  {
+    "objectID": "flippedclass.html#references",
+    "href": "flippedclass.html#references",
+    "title": "How to Learn With This Course",
+    "section": "References",
+    "text": "References\n\n\n\n\nNottingham, James A. 2015. Challenging Learning. Routledge.\n\n\nStaricoff, Marcelo. 2020. The Joy of Not Knowing. Routledge."
+  }
+]

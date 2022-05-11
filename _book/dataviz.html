@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.80">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Data Science - Global Plant Health MSc Course - Why Care About Data Science</title>
+  <title>Data Science - Global Plant Health MSc Course - 2&nbsp; Data Exploration and Visualisation</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -20,8 +20,8 @@
   <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
   <script src="site_libs/quarto-search/fuse.min.js"></script>
   <script src="site_libs/quarto-search/quarto-search.js"></script>
-  <link href="./flippedclass.html" rel="next">
-  <link href="./index.html" rel="prev">
+  <link href="./stats.html" rel="next">
+  <link href="./genomics.html" rel="prev">
   <script src="site_libs/quarto-html/quarto.js"></script>
   <script src="site_libs/quarto-html/popper.min.js"></script>
   <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +59,7 @@
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Why Care About Data Science</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Exploration and Visualisation</span></h1>
       <button type="button" class="quarto-btn-toggle btn">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -89,12 +89,17 @@
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">Why Care About Data Science</a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">Why Care About Data Science</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./flippedclass.html" class="sidebar-item-text sidebar-link">How to Learn With This Course</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./howtosucceed.html" class="sidebar-item-text sidebar-link">How To Succeed In This Course</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -112,7 +117,7 @@
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dataviz.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Exploration and Visualisation</span></a>
+  <a href="./dataviz.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Exploration and Visualisation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -150,40 +155,40 @@
         <nav id="TOC" role="doc-toc">
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li><a href="#all-experimental-science-is-data-science-sooner-or-later" class="nav-link active" data-scroll-target="#all-experimental-science-is-data-science-sooner-or-later">All experimental science is data science sooner or later</a></li>
-<li><a href="#biology-is-getting-bigger" class="nav-link" data-scroll-target="#biology-is-getting-bigger">Biology is getting bigger</a></li>
-<li><a href="#data-science-methods-are-21st-century-realisations-of-the-scientific-method" class="nav-link" data-scroll-target="#data-science-methods-are-21st-century-realisations-of-the-scientific-method">Data science methods are 21st Century realisations of the scientific method</a></li>
+<li><a href="#the-materials" class="nav-link active" data-scroll-target="#the-materials"> <span class="header-section-number">2.1</span> The materials</a></li>
+<li><a href="#for-you-to-do" class="nav-link" data-scroll-target="#for-you-to-do"> <span class="header-section-number">2.2</span> For you to do</a></li>
 </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <header id="title-block-header">
-<h1 class="title d-none d-lg-block display-7">Why Care About Data Science</h1>
+<h1 class="title d-none d-lg-block display-7"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Exploration and Visualisation</span></h1>
 </header>
 
-<p>At first thought, you may imagine that data science is not going to be of much interest to you, your desire and interest is in biology, not computers and mathematics. That may be true but data science is actually going to be one of the main technical themes throughout your entire scientific career and it will help you truly master your science and to become an informed and healthily sceptical interpreter of scientific results. Adding data science as your super power will be of benefit in lots of ways. Learning data science now isn’t a tax on your time so that you can get through this M.Sc, it’s a valuable investment in your skill set that will help to give you an advantage that will pay definite dividends later. Getting on with data science is like getting on with Jedi training for biologists</p>
+<p>Data exploration and visualisation is the first step in most analyses and the R statistical computing environment is a great tool to work with.</p>
+<p>In this topic we will explore techniques in R that allow us answer research questions of our data in a way that follows consistent and straightforward principles. We will learn a data format for keeping our research data organised so that we can readily apply all sorts of useful tools to it. We will also learn a grammar of plots that will allow us to make informative and clear figures. By the end of this you will be comfortable with using R to summarise and work with data frames and create a wide range of plots.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="starwars-rey-rstats.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Artwork from <a href="https://twitter.com/juliesquid">@juliesquid</a> for <a href="https://twitter.com/openscapes">@openscapes</a> (illustrated by <a href="https://twitter.com/allison_horst">@allison_horst</a>)</figcaption><p></p>
+<p><img src="r_first_then.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Artwork by <a href="https://github.com/allisonhorst">@AllisonHorst</a></figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
-<section id="all-experimental-science-is-data-science-sooner-or-later" class="level2">
-<h2 class="anchored" data-anchor-id="all-experimental-science-is-data-science-sooner-or-later">All experimental science is data science sooner or later</h2>
-<p>“Data Science” is a new-ish term that describes an interdisciplinary approach to the practical application of statistics and computer science concepts and tools. The term data scientist is most often applied to people who analyse large amounts of high throughput data full time and have a research or industrial interest in that but the techniques of data science are useful to all researchers, data science is useful to biologists. There is no such thing as a purely lab- or field-based biologist, once our data are collected we must use it in a computer to perform analyses, draw conclusions and draw figures. All modern scientists are at some point a data scientist, irrespective of field and training. Knowledge of data science techniques will therefore underpin everything you do as a scientist at the most fundamental level, from experimental design, data collection, analysis and interpretation of results. A scientist that lacks data science skills will find it very difficult to progress beyond the most basic levels of expertise in experimental analysis.</p>
+<section id="the-materials" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="the-materials"><span class="header-section-number">2.1</span> The materials</h2>
+<p>For this topic we will use these courses</p>
+<ol type="1">
+<li><a href="https://danmaclean.github.io/tidyversebook/index.html">Using dplyr for data analysis</a></li>
+<li><a href="https://danmaclean.github.io/ggplotbook/index.html">Using ggplot2 for producing quality plots</a></li>
+</ol>
 </section>
-<section id="biology-is-getting-bigger" class="level2">
-<h2 class="anchored" data-anchor-id="biology-is-getting-bigger">Biology is getting bigger</h2>
-<p>All biological disciplines including genomics and genetics, microscopy, biochemistry and proteomics generate volumes of data that are too great to handle by a scientist armed only with a clipboard and spreadsheet, no matter how hard working they are. At the heart of data science are the techniques for dealing with the biggest data sets yet generated and learning just a little about them will stand you in good stead across your entire career.</p>
-</section>
-<section id="data-science-methods-are-21st-century-realisations-of-the-scientific-method" class="level2">
-<h2 class="anchored" data-anchor-id="data-science-methods-are-21st-century-realisations-of-the-scientific-method">Data science methods are 21st Century realisations of the scientific method</h2>
-<p>Reproducibility and clear description of process is the keystone of the scientific method, using point and click tools to carry out analyses often do nothing to help you reach this goal but many data science techniques are built with these qualities as a primary design principle and can help to reduce your workload by helping you to do things reproducibly over and again with ease. They can help you share and report on your research and data in a way that is transparent and clear to the reader. They can also help you make the data and analysis you have generated shareable and findable by others.</p>
+<section id="for-you-to-do" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="for-you-to-do"><span class="header-section-number">2.2</span> For you to do</h2>
+<p>These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics.</p>
 
 
 </section>
@@ -266,13 +271,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About This Course</span>
+      <a href="./genomics.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Genomics</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./flippedclass.html" class="pagination-link">
-        <span class="nav-page-text">How to Learn With This Course</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./stats.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding Statistics With Linear Models</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

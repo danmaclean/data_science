@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "Data Science - Global Plant Health MSc Course"
+  author: "Dan MacLean"
+  date: "May 2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - flippedclass.qmd
+    - howtosucceed.qmd
+    - part: topics.qmd
+      chapters:
+        - genomics.qmd
+        - dataviz.qmd
+        - stats.qmd
+        - nonfreq.qmd
+        - ml.qmd
+        - python.qmd
+        - literacy.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

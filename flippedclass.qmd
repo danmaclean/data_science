@@ -1,0 +1,44 @@
+# How to Learn With This Course {.unnumbered}
+
+
+## Session types
+
+The topics in this course will be delivered in one of three ways: 
+
+  1. Bootcamp
+  2. Flipped classroom
+  3. Online tutorial
+  
+Each type of class has a different emphasis and approach regardless of the topic under study. 
+
+### Bootcamp
+
+The bootcamp style class is an instructor led practical session. You will be expected to follow an instructor who is teaching and live coding from the front of the class. This is not a lecture where you take notes - its a computer class where you work concurrently with the instructor as they exemplify the skills you will need to learn to use. Much more like a cookery class than a university lecture, the session proceeds with the instructor demonstrating how to do a specific computer-based skill and you try it out immediately. It is very, _very_ useful to take the opportunity to read the materials for bootcamps _before_ the session. Learning from this style requires you to be alert and engaged with the material in the session, not least you should put effort into joining in and being part of the group. Be prepared to make mistakes and be at peace with not knowing yet and being on a journey of learning. Sitting back and hoping to catch up with it later in your own time will put you behind and waste the opportunity of the session.
+
+### Flipped classroom
+
+The 'flipped' classroom style here is one in which the reading is done by the student _before_ the session. This gives time for reflection and understanding of the concepts such that they can be applied to solve the problem sets that come up in the session. The instructor will _not_ conduct a comprehensive overview of the materials during the session, instead they will concentrate on issues arising in the application of the concepts. If you have not done the reading before the session then you will be behind from the start of the session and you will miss out on the opportunity. Learning from this style is requires you to lead and take responsibility for the learning before class and to work to apply the theoretical knowledge in the practical session. 
+
+### Online tutorial
+
+The most traditional style of session will be the online tutorial in which you will work through an online guide with embedded quizzes and questions on a particular topic. The materials will be provided in the session. Learning from this style of session requires you to be thinking through the questions and reasoning to work out the answers with the materials provided.
+
+
+## JONK
+
+For all learning you should embrace JONK - 'Joy of Not Knowing' [@jonk]. Although you are at least a Post-Grad there are still a lot of things and skills to learn and you will spend a lot of time confused. This is fine. And expected, and a necessary part of learning - if it was easy you wouldn't be learning anything. Over and over again you'll fall into the metaphorical 'Learning Pit' [@pit] and through working at a problem sincerely with a view to understanding you'll reach real success - a good understanding of the topics you are learning about. 
+
+```{r, fig.cap="Artwork from [James Nottingham -  https://www.challenginglearning.com](https://www.challenginglearning.com/learning-pit/)", echo=FALSE}
+knitr::include_graphics("learningpit.jpg")
+```
+
+
+### The dark side 
+
+Lots of people want to use data science and statistics so lots of people publish blog posts and tutorials on how to do a lot of the sort of things covered in this course across the internet. The useful and particular ways of thinking about data science that this course is aimed at helping you understand are not so often developed in the quick online tutorials. While quick tutorials can help you with an immediate coding problem, it can take a very long time to develop broad and flexible understanding of data science through just looking stuff up on the internet and applying them until they seem to work. Its a bit like buying car parts of the internet and hoping they all fit together into a working machine.  
+
+```{r, echo=FALSE}
+knitr::include_graphics("darkside.jpg")
+```
+
+## References

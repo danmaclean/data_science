@@ -1,0 +1,24 @@
+# Beginning Programming
+
+Programming is an essential but tricky tool to master for all data scientists. Code comes in many guises and in this course up to now we've been writing code for specific tasks with a clear and present idea of what we want to get done. General programming concepts often seem less useful because of their generality, so in this topic we will study the general concepts that will allow us to program in most problem domains.  We will introduce the central concepts of programming and learn to use the implementations of them in the Python general purpose programming language. At the end of this topic you will be aware of the most important concepts in programming and how to use them in Python. 
+
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+knitr::include_graphics("monster_for_loop.png")
+```
+
+
+
+## The materials
+
+For this topic we will use these courses
+
+  1. [A tao of programming](https://danmaclean.github.io/tao_of_programming/)
+  2. [Beginning programming with Python](https://danmaclean.github.io/programming_with_python/)
+  
+  
+## For you to do
+
+Part 1 (A tao of programming) will be delivered as a full contact instructor led-session. You should come to the scheduled session.
+
+Part 2 (Beginning programming with Python) will be delivered flipped classroom-style. That means it is led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 
+  
