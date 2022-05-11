@@ -6,6 +6,9 @@ book:
   title: "Data Science - Global Plant Health MSc Course"
   author: "Dan MacLean"
   date: "May 2022"
+  search: true
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   chapters:
     - index.qmd
     - intro.qmd
@@ -29,5 +32,6 @@ format:
   pdf:
     documentclass: scrreprt
 
-
+comments:
+  hypothesis: true
 
