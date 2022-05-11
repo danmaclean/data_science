@@ -1,0 +1,21 @@
+# Data Exploration and Visualisation
+
+Data exploration and visualisation is the first step in most analyses and the R statistical computing environment is a great tool to work with. 
+
+In this topic we will explore techniques in R that allow us answer research questions of our data in a way that follows consistent and straightforward principles. We will learn a data format for keeping our research data organised so that we can readily apply all sorts of useful tools to it. We will also learn a grammar of plots that will allow us to make informative and clear figures. By the end of this you will be comfortable with using R to summarise and work with data frames and create a wide range of plots.
+
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+knitr::include_graphics("r_first_then.png")
+```
+
+
+## The materials
+
+For this topic we will use these courses 
+
+  1. [Using dplyr for data analysis](https://danmaclean.github.io/tidyversebook/index.html)
+  2. [Using ggplot2 for producing quality plots](https://danmaclean.github.io/ggplotbook/index.html)
+
+## For you to do
+
+These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 

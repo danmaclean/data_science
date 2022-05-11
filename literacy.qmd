@@ -1,0 +1,18 @@
+# Literate Computation
+
+Sitting at a computer and typing commands is only of limited fun. Wrapping commands in scripts is a great way to re-do an analysis without having to type everything in again. But scripts are for computers to read, not humans, so understanding and interpreting an analysis rendered as code alone is not good for general understanding. In this course we'll look at tools and techniques for Literate Computation, a mixing of code, results and human language that results in easily understood executable and re-useable analysis documents. We will also look at tools and strategies for sharing and getting credit for your code and analysis. At the end of this topic you will have a good understanding of how to construct reproducible, reusable and readable analysis documents and how to share them online.
+
+
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+knitr::include_graphics("rmarkdown_wizards.png")
+```
+
+## The materials
+
+For this topic we will use this course:
+
+  1. [Literate Computing](https://danmaclean.github.io/literate_computing/)
+
+## For you to do
+
+These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 

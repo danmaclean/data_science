@@ -1,0 +1,3 @@
+# Acknowledgements
+
+All of the artwork in this repo is by [\\@allison_horst](https://twitter.com/allison_horst) and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 

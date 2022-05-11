@@ -1,0 +1,19 @@
+# Introduction to Non-Frequentist Statistics
+
+In this topic we will take a look at alternatives to the standard statistical testing tools and models and learn how to make inferences from our data without tests. We will learn to abandon the $p$-value as a final arbiter of decision making and see that it is not the only statistic that matters. We will look at using Bayesian inference to make comparisons of hypotheses about our data. By the end of this course you will be able to use and interpret standardised effect sizes and create confidence intervals and estimation plots in R. You will be able to use and interpret Bayesian versions of some common statistical tests 
+
+
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+knitr::include_graphics("p_value_mic_hog.jpg")
+```
+
+## The materials
+
+For this topic we will use these courses
+
+  1. [Estimation Statistics](https://danmaclean.github.io/estimation_statistics/)
+  2. [Bayesian Inference with Bayes Factors](https://danmaclean.github.io/bayes_factors/)
+  
+## For you to do
+
+These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 

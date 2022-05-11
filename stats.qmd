@@ -1,0 +1,19 @@
+# Understanding Statistics With Linear Models
+
+In this topic we will take a look at common statistical methods. Rather than launch into a long list of tests and conditions for use  we will take advantage of the fact that they are all special cases of a simple tool called a linear model. We will learn about linear models and how to use them to carry out statistical inference. By the end of this topic you will have a clear understanding of how and why to use a linear model in R to carry out most tests and comparisons.
+
+```{r, fig.cap="Artwork by [\\@AllisonHorst](https://github.com/allisonhorst)", echo=FALSE}
+knitr::include_graphics("ex_4.png")
+```
+
+
+## The materials 
+
+For this topic we will use this course
+
+  1. [Understanding Statistical Thinking With Linear Models](https://danmaclean.github.io/intro_to_stats/)
+  
+  
+## For you to do
+
+These topics will be delivered flipped classroom-style. That means they are led by you and you have the responsibility for doing the reading prior to coming to the session. You will absolutely need to devote time and work through the materials on your own and bring any questions and queries that you have to the scheduled session for the topics. 
