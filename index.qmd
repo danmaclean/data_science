@@ -33,6 +33,9 @@ We will cover the following topics in data science
     6. Beginning Programming
     7. Literate Computation
 
+
+Sections 1,2,3 and 7 are considered the core parts and each has guided study parts that we will use. Sections 4,5 and 6 are considered extension parts. The core will be covered first and the extension parts can be covered as we decide in the class dependent on preference and interest. 
+
 ## Course Assessments
 
 The culmination of all this learning and practice will be a written essay and a data analysis project on which you will be assessed and receive a grade. These will be set during the course and deadlines will be given to you explicitly for each. You will not be formally assessed on other projects, quizzes and challenges occurring through the course.

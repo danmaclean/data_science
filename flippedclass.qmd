@@ -35,7 +35,7 @@ knitr::include_graphics("learningpit.jpg")
 
 ### The dark side 
 
-Lots of people want to use data science and statistics so lots of people publish blog posts and tutorials on how to do a lot of the sort of things covered in this course across the internet. The useful and particular ways of thinking about data science that this course is aimed at helping you understand are not so often developed in the quick online tutorials. While quick tutorials can help you with an immediate coding problem, it can take a very long time to develop broad and flexible understanding of data science through just looking stuff up on the internet and applying them until they seem to work. Its a bit like buying car parts of the internet and hoping they all fit together into a working machine.  
+Lots of people want to use data science and statistics so lots of other people publish blog posts and tutorials on those topics on the internet. A quick google will lead you to how-to's in briefer and shallower form than this course. Be wary of taking these as an answer, although they aren't wrong per se, the useful and particular ways of thinking about data science that this course is aimed at helping you understand are not so often developed in the quick online tutorials. They can help you with an immediate coding problem, it can take a very long time to develop broad and flexible understanding of data science through just looking stuff up on the internet and applying them until they seem to work. This dark side is quick, easy and seductive but won't bring you a good understanding. Take your time and work through the details and you'll emerge with a much more adaptable and applicable set of skills.
 
 ```{r, echo=FALSE}
 knitr::include_graphics("darkside.jpg")

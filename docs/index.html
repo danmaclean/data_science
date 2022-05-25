@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.80">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="Dan MacLean">
-  <title>Data Science - Global Plant Health MSc Course</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-  </style>
 
-  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-  <script src="site_libs/quarto-nav/headroom.min.js"></script>
-  <script src="site_libs/clipboard/clipboard.min.js"></script>
-  <meta name="quarto:offset" content="./">
-  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-  <script src="site_libs/quarto-search/fuse.min.js"></script>
-  <script src="site_libs/quarto-search/quarto-search.js"></script>
-  <link href="./intro.html" rel="next">
-  <script src="site_libs/quarto-html/quarto.js"></script>
-  <script src="site_libs/quarto-html/popper.min.js"></script>
-  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-  <script src="site_libs/quarto-html/anchor.min.js"></script>
-  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-  <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
-  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <script id="quarto-search-options" type="application/json">{
-    "location": "sidebar",
-    "copy-button": false,
-    "collapse-after": 2,
-    "panel-placement": "start",
-    "type": "textbox",
-    "limit": 20,
-    "language": {
-      "search-no-results-text": "No results",
-      "search-matching-documents-text": "matching documents",
-      "search-copy-link-title": "Copy link to search",
-      "search-hide-matches-text": "Hide additional matches",
-      "search-more-match-text": "more match in this document",
-      "search-more-matches-text": "more matches in this document",
-      "search-clear-button-title": "Clear",
-      "search-detached-cancel-button-title": "Cancel",
-      "search-submit-button-title": "Submit"
-    }
-  }</script>
-  <script async="" src="https://hypothes.is/embed.js"></script>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.387">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dan MacLean">
+<meta name="dcterms.date" content="2022-05-01">
+
+<title>Data Science - Global Plant Health MSc Course</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<link href="./intro.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
 </head>
-<body class="floating">
+
+<body class="nav-sidebar floating">
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
       <h1 class="quarto-secondary-nav-title">Data Science - Global Plant Health MSc Course</h1>
-      <button type="button" class="quarto-btn-toggle btn">
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
     </div>
@@ -138,11 +144,11 @@
         <li class="sidebar-item sidebar-item-section">
     <div class="sidebar-item-container"> 
         <a href="./topics.html" class="sidebar-item-text sidebar-link">Topics</a>
-      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-topicsqmd" aria-expanded="true">
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
         <i class="bi bi-chevron-right ms-2"></i>
       </a>
     </div>
-    <ul id="quarto-sidebar-section-topicsqmd" class="collapse list-unstyled sidebar-section depth1 show">  
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./genomics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Genomics</span></a>
@@ -186,29 +192,55 @@
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc">
-<h2 id="toc-title">Table of contents</h2>
-<ul>
-<li><a href="#about-this-course" class="nav-link active" data-scroll-target="#about-this-course">About This Course</a>
-<ul class="collapse">
-<li><a href="#course-delivery" class="nav-link" data-scroll-target="#course-delivery">Course Delivery</a></li>
-<li><a href="#online-materials" class="nav-link" data-scroll-target="#online-materials">Online Materials</a></li>
-<li><a href="#installation-of-software-and-tools" class="nav-link" data-scroll-target="#installation-of-software-and-tools">Installation of software and tools</a></li>
-<li><a href="#course-topics" class="nav-link" data-scroll-target="#course-topics">Course Topics</a></li>
-<li><a href="#course-assessments" class="nav-link" data-scroll-target="#course-assessments">Course Assessments</a>
-<ul class="collapse">
-<li><a href="#deadlines" class="nav-link" data-scroll-target="#deadlines">Deadlines</a></li>
-</ul></li>
-<li><a href="#schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-</ul></li>
-</ul>
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#about-this-course" id="toc-about-this-course" class="nav-link active" data-scroll-target="#about-this-course">About This Course</a>
+  <ul class="collapse">
+  <li><a href="#course-delivery" id="toc-course-delivery" class="nav-link" data-scroll-target="#course-delivery">Course Delivery</a></li>
+  <li><a href="#online-materials" id="toc-online-materials" class="nav-link" data-scroll-target="#online-materials">Online Materials</a></li>
+  <li><a href="#installation-of-software-and-tools" id="toc-installation-of-software-and-tools" class="nav-link" data-scroll-target="#installation-of-software-and-tools">Installation of software and tools</a></li>
+  <li><a href="#course-topics" id="toc-course-topics" class="nav-link" data-scroll-target="#course-topics">Course Topics</a></li>
+  <li><a href="#course-assessments" id="toc-course-assessments" class="nav-link" data-scroll-target="#course-assessments">Course Assessments</a>
+  <ul class="collapse">
+  <li><a href="#deadlines" id="toc-deadlines" class="nav-link" data-scroll-target="#deadlines">Deadlines</a></li>
+  </ul></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  </ul></li>
+  </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<header id="title-block-header">
-<h1 class="title d-none d-lg-block display-7">Data Science - Global Plant Health MSc Course</h1>
-<p class="author">Dan MacLean</p>
-<p class="date">May 2022</p>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Data Science - Global Plant Health MSc Course</h1>
+</div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dan MacLean </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 1, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
 </header>
 
 <section id="about-this-course" class="level1 unnumbered">
@@ -247,6 +279,7 @@
 5. Introduction to Machine Learning
 6. Beginning Programming
 7. Literate Computation</code></pre>
+<p>Sections 1,2,3 and 7 are considered the core parts and each has guided study parts that we will use. Sections 4,5 and 6 are considered extension parts. The core will be covered first and the extension parts can be covered as we decide in the class dependent on preference and interest.</p>
 </section>
 <section id="course-assessments" class="level2">
 <h2 class="anchored" data-anchor-id="course-assessments">Course Assessments</h2>
@@ -256,12 +289,13 @@
 <p>Here are the course deadlines for the 2021/2022 year.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fuceilmcrz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+
+<div id="jxxtaidjtg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#fuceilmcrz .gt_table {
+#jxxtaidjtg .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -286,7 +320,7 @@
   border-left-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_heading {
+#jxxtaidjtg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -298,7 +332,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_title {
+#jxxtaidjtg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -310,7 +344,7 @@
   border-bottom-width: 0;
 }
 
-#fuceilmcrz .gt_subtitle {
+#jxxtaidjtg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -322,13 +356,13 @@
   border-top-width: 0;
 }
 
-#fuceilmcrz .gt_bottom_border {
+#jxxtaidjtg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_col_headings {
+#jxxtaidjtg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -343,7 +377,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_col_heading {
+#jxxtaidjtg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -363,7 +397,7 @@
   overflow-x: hidden;
 }
 
-#fuceilmcrz .gt_column_spanner_outer {
+#jxxtaidjtg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -375,15 +409,15 @@
   padding-right: 4px;
 }
 
-#fuceilmcrz .gt_column_spanner_outer:first-child {
+#jxxtaidjtg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fuceilmcrz .gt_column_spanner_outer:last-child {
+#jxxtaidjtg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fuceilmcrz .gt_column_spanner {
+#jxxtaidjtg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -395,7 +429,7 @@
   width: 100%;
 }
 
-#fuceilmcrz .gt_group_heading {
+#jxxtaidjtg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -420,7 +454,7 @@
   vertical-align: middle;
 }
 
-#fuceilmcrz .gt_empty_group_heading {
+#jxxtaidjtg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -435,15 +469,15 @@
   vertical-align: middle;
 }
 
-#fuceilmcrz .gt_from_md > :first-child {
+#jxxtaidjtg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fuceilmcrz .gt_from_md > :last-child {
+#jxxtaidjtg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fuceilmcrz .gt_row {
+#jxxtaidjtg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -462,7 +496,7 @@
   overflow-x: hidden;
 }
 
-#fuceilmcrz .gt_stub {
+#jxxtaidjtg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -475,7 +509,7 @@
   padding-right: 5px;
 }
 
-#fuceilmcrz .gt_stub_row_group {
+#jxxtaidjtg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -489,11 +523,11 @@
   vertical-align: top;
 }
 
-#fuceilmcrz .gt_row_group_first td {
+#jxxtaidjtg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#fuceilmcrz .gt_summary_row {
+#jxxtaidjtg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -503,16 +537,16 @@
   padding-right: 5px;
 }
 
-#fuceilmcrz .gt_first_summary_row {
+#jxxtaidjtg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_first_summary_row.thick {
+#jxxtaidjtg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#fuceilmcrz .gt_last_summary_row {
+#jxxtaidjtg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -522,7 +556,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_grand_summary_row {
+#jxxtaidjtg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -532,7 +566,7 @@
   padding-right: 5px;
 }
 
-#fuceilmcrz .gt_first_grand_summary_row {
+#jxxtaidjtg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -542,11 +576,11 @@
   border-top-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_striped {
+#jxxtaidjtg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fuceilmcrz .gt_table_body {
+#jxxtaidjtg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -555,7 +589,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_footnotes {
+#jxxtaidjtg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -569,7 +603,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_footnote {
+#jxxtaidjtg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -578,7 +612,7 @@
   padding-right: 5px;
 }
 
-#fuceilmcrz .gt_sourcenotes {
+#jxxtaidjtg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -592,7 +626,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuceilmcrz .gt_sourcenote {
+#jxxtaidjtg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -600,36 +634,36 @@
   padding-right: 5px;
 }
 
-#fuceilmcrz .gt_left {
+#jxxtaidjtg .gt_left {
   text-align: left;
 }
 
-#fuceilmcrz .gt_center {
+#jxxtaidjtg .gt_center {
   text-align: center;
 }
 
-#fuceilmcrz .gt_right {
+#jxxtaidjtg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fuceilmcrz .gt_font_normal {
+#jxxtaidjtg .gt_font_normal {
   font-weight: normal;
 }
 
-#fuceilmcrz .gt_font_bold {
+#jxxtaidjtg .gt_font_bold {
   font-weight: bold;
 }
 
-#fuceilmcrz .gt_font_italic {
+#jxxtaidjtg .gt_font_italic {
   font-style: italic;
 }
 
-#fuceilmcrz .gt_super {
+#jxxtaidjtg .gt_super {
   font-size: 65%;
 }
 
-#fuceilmcrz .gt_two_val_uncert {
+#jxxtaidjtg .gt_two_val_uncert {
   display: inline-block;
   line-height: 1em;
   text-align: right;
@@ -638,31 +672,31 @@
   margin-left: 0.1em;
 }
 
-#fuceilmcrz .gt_footnote_marks {
+#jxxtaidjtg .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#fuceilmcrz .gt_asterisk {
+#jxxtaidjtg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#fuceilmcrz .gt_slash_mark {
+#jxxtaidjtg .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#fuceilmcrz .gt_fraction_numerator {
+#jxxtaidjtg .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#fuceilmcrz .gt_fraction_denominator {
+#jxxtaidjtg .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
@@ -713,12 +747,13 @@
 <h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
 <div class="cell" data-message="false">
 <div class="cell-output-display">
-<div id="fvlybicuux" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+
+<div id="eencwrhymt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#fvlybicuux .gt_table {
+#eencwrhymt .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -743,7 +778,7 @@
   border-left-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_heading {
+#eencwrhymt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -755,7 +790,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_title {
+#eencwrhymt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -767,7 +802,7 @@
   border-bottom-width: 0;
 }
 
-#fvlybicuux .gt_subtitle {
+#eencwrhymt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -779,13 +814,13 @@
   border-top-width: 0;
 }
 
-#fvlybicuux .gt_bottom_border {
+#eencwrhymt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_col_headings {
+#eencwrhymt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -800,7 +835,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_col_heading {
+#eencwrhymt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -820,7 +855,7 @@
   overflow-x: hidden;
 }
 
-#fvlybicuux .gt_column_spanner_outer {
+#eencwrhymt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -832,15 +867,15 @@
   padding-right: 4px;
 }
 
-#fvlybicuux .gt_column_spanner_outer:first-child {
+#eencwrhymt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fvlybicuux .gt_column_spanner_outer:last-child {
+#eencwrhymt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fvlybicuux .gt_column_spanner {
+#eencwrhymt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -852,7 +887,7 @@
   width: 100%;
 }
 
-#fvlybicuux .gt_group_heading {
+#eencwrhymt .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -877,7 +912,7 @@
   vertical-align: middle;
 }
 
-#fvlybicuux .gt_empty_group_heading {
+#eencwrhymt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -892,15 +927,15 @@
   vertical-align: middle;
 }
 
-#fvlybicuux .gt_from_md > :first-child {
+#eencwrhymt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fvlybicuux .gt_from_md > :last-child {
+#eencwrhymt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fvlybicuux .gt_row {
+#eencwrhymt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -919,7 +954,7 @@
   overflow-x: hidden;
 }
 
-#fvlybicuux .gt_stub {
+#eencwrhymt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -932,7 +967,7 @@
   padding-right: 5px;
 }
 
-#fvlybicuux .gt_stub_row_group {
+#eencwrhymt .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -946,11 +981,11 @@
   vertical-align: top;
 }
 
-#fvlybicuux .gt_row_group_first td {
+#eencwrhymt .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#fvlybicuux .gt_summary_row {
+#eencwrhymt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -960,16 +995,16 @@
   padding-right: 5px;
 }
 
-#fvlybicuux .gt_first_summary_row {
+#eencwrhymt .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_first_summary_row.thick {
+#eencwrhymt .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#fvlybicuux .gt_last_summary_row {
+#eencwrhymt .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -979,7 +1014,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_grand_summary_row {
+#eencwrhymt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -989,7 +1024,7 @@
   padding-right: 5px;
 }
 
-#fvlybicuux .gt_first_grand_summary_row {
+#eencwrhymt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -999,11 +1034,11 @@
   border-top-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_striped {
+#eencwrhymt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fvlybicuux .gt_table_body {
+#eencwrhymt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1012,7 +1047,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_footnotes {
+#eencwrhymt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1026,7 +1061,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_footnote {
+#eencwrhymt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1035,7 +1070,7 @@
   padding-right: 5px;
 }
 
-#fvlybicuux .gt_sourcenotes {
+#eencwrhymt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1049,7 +1084,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fvlybicuux .gt_sourcenote {
+#eencwrhymt .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1057,36 +1092,36 @@
   padding-right: 5px;
 }
 
-#fvlybicuux .gt_left {
+#eencwrhymt .gt_left {
   text-align: left;
 }
 
-#fvlybicuux .gt_center {
+#eencwrhymt .gt_center {
   text-align: center;
 }
 
-#fvlybicuux .gt_right {
+#eencwrhymt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fvlybicuux .gt_font_normal {
+#eencwrhymt .gt_font_normal {
   font-weight: normal;
 }
 
-#fvlybicuux .gt_font_bold {
+#eencwrhymt .gt_font_bold {
   font-weight: bold;
 }
 
-#fvlybicuux .gt_font_italic {
+#eencwrhymt .gt_font_italic {
   font-style: italic;
 }
 
-#fvlybicuux .gt_super {
+#eencwrhymt .gt_super {
   font-size: 65%;
 }
 
-#fvlybicuux .gt_two_val_uncert {
+#eencwrhymt .gt_two_val_uncert {
   display: inline-block;
   line-height: 1em;
   text-align: right;
@@ -1095,31 +1130,31 @@
   margin-left: 0.1em;
 }
 
-#fvlybicuux .gt_footnote_marks {
+#eencwrhymt .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#fvlybicuux .gt_asterisk {
+#eencwrhymt .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#fvlybicuux .gt_slash_mark {
+#eencwrhymt .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#fvlybicuux .gt_fraction_numerator {
+#eencwrhymt .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#fvlybicuux .gt_fraction_denominator {
+#eencwrhymt .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
@@ -1175,8 +1210,9 @@
 
 </section>
 </section>
+
 </main> <!-- /main -->
-<script type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
   const anchorJS = new window.AnchorJS();
@@ -1197,7 +1233,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.blur();
     // flash "checked"
     button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
     setTimeout(function() {
+      button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
@@ -1262,6 +1301,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 </body></html>
