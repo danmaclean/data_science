@@ -24,6 +24,10 @@ The 'flipped' classroom style here is one in which the reading is done by the st
 The most traditional style of session will be the online tutorial in which you will work through an online guide with embedded quizzes and questions on a particular topic. The materials will be provided in the session. Learning from this style of session requires you to be thinking through the questions and reasoning to work out the answers with the materials provided.
 
 
+## Note-taking
+
+The website of the course is connected to the online note-taking system [hypothes.is](https://hypothes.is/). If you have an account there and are logged in you'll be able to add highlights, notes and comments that you will see in the web page itself. You can also make and join groups to share notes.
+
 ## JONK
 
 For all learning you should embrace JONK - 'Joy of Not Knowing' [@jonk]. Although you are at least a Post-Grad there are still a lot of things and skills to learn and you will spend a lot of time confused. This is fine. And expected, and a necessary part of learning - if it was easy you wouldn't be learning anything. Over and over again you'll fall into the metaphorical 'Learning Pit' [@pit] and through working at a problem sincerely with a view to understanding you'll reach real success - a good understanding of the topics you are learning about. 
