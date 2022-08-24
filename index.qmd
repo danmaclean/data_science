@@ -42,43 +42,45 @@ The culmination of all this learning and practice will be a written essay and a 
 
 ### Deadlines
 
-Here are the course deadlines for the 2021/2022 year.
+~~Here are the course deadlines for the 2022/2023 year.~~
+
+Deadlines not yet decided.
 
 ```{r,echo=FALSE, warning =FALSE, message=FALSE}
 library(lubridate)
 library(magrittr)
 library(gt)
 
-tibble::tibble(
-    `Assessment` = c('Formative 1 (Essay)', 'Formative 2 (Data)', 'Summative 1 (Essay)', 'Summative 2 (Essay)'),
-    `Deadline` = ymd(c("2021-12-1", "2021-12-15", "2022-1-12", "2022-1-22")),
-    `Return Date` = ymd(c("2022-1-12", "2022-1-26", "2022-2-9", "2022-2-22")),
-    `Blackboard ID` = c("BIO-7046Y FM1","BIO-7046Y FM2","BIO-7046Y SM1","BIO-7046Y SM2")
+#tibble::tibble(
+#    `Assessment` = c('Formative 1 (Essay Plan)', 'Formative 2 (Data Analysis Plan)', 'Summative 1 (Essay)', 'Summative 2 (Data Analysis)'),
+#    `Deadline` = c(rep("TBD", 4)), #ymd(c("2000-12-1", "2000-12-15", "2022-1-12", "2022-1-22")),
+#    `Return Date` = c(rep("TBD", 4)), #ymd(c("2022-1-12", "2022-1-26", "2022-2-9", "2022-2-22")),
+#    `Blackboard ID` = c(rep("TBD", 4)) #c("BIO-7046Y FM1","BIO-7046Y FM2","BIO-7046Y SM1","BIO-7046Y SM2")
     
-) %>% 
-    gt() %>% 
-        tab_header(
-            title = "Important Assessment Dates"
-        ) %>% 
-        fmt_date(
-            columns = c(Deadline, `Return Date`)
-        ) 
+#) %>% 
+#    gt() %>% 
+#        tab_header(
+#            title = "Important Assessment Dates"
+#        ) %>% 
+#        fmt_date(
+#            columns = c(Deadline, `Return Date`)
+#        ) 
     
 
 ```
 
-## Schedule
+## Schedule 2022/2023
 
 ```{r, echo=FALSE, warning=FALSE, Message=FALSE}
 tibble::tibble(
-    `Date` = c("2021-10-18 09:30", "2021-10-29 13:00", "2021-11-12 13:00", "2021-11-19 13:00", "2021-11-26 13:00", "2021-12-10 13:00", "2022-1-7 13:00", "2022-1-21 13:00" ),
+    `Date` = c("2022-11-25 13:00", "2022-12-02 13:00", "2022-12-09 13:00", "2022-12-16 13:00", "2023-1-13 13:00", "2023-1-20 13:00", "2023-1-27 13:00", "2023-2-23 13:00" ),
     `Session` = c("Course Intro and Intro to Genomics", "Intro to Genomics and Databases", "Data Exploration and Visualisation", "Understanding Statistics", "Literate Computation", "Beginning Programming", "Non-Frequentist Stats", "Machine Learning"),
-    `Location` = c(rep("Room??", 8))
+    `Location` = c(rep("MSc Suite", 8))
 )     %>% 
 
 gt() %>% 
         tab_header(
-            title = "Data Science Schedule 2021/2022"
+            title = "Data Science Schedule 2022/2023"
         ) %>% 
         fmt_datetime(
             columns = c(Date)
