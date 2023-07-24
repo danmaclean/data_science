@@ -45,4 +45,25 @@ Lots of people want to use data science and statistics so lots of other people p
 knitr::include_graphics("darkside.jpg")
 ```
 
+
+### Using ChatGPT and other 'bots
+
+It is perfectly acceptable to use ChatGPT and other AI's to help you to work with code. AI's like that can't do 'thinking' but they can do 'parsing' so if you have a very specific question especially about syntax do feel free to use it. Remember that these sorts of tools are 'cliche machines' they generate an average answer, which isn't going to be helpful when you want to come up with an analysis strategy that is very tailored to an individual research question. It won't do a good job of telling you which test to use.
+
+### The twin learning challenge
+
+One difficult thing about learning to solve data questions with code is that you have to learn two things at the same time; how to solve the problem in code (how to program) and how to actually correctly write the code (learn the syntax of your chosen language). Its perfectly possible to get the first thing right and falter with the second, the second being incredibly easy to get wrong. Syntax in computer languages is incredibly picky and requires an eye for detail. One misplaced letter or punctuation mark and the code fails. In order to help with this it can be useful to learn how to use some tools to help with syntax. Here's a short list.
+
+  1. *The Language Help System*
+  
+      Most languages have a help system, in R this is accessed in the 'help' pane of RStudio or by putting a `?` in front of a search term in the console, so `?print` will return entries in the help that have `print` in their title or description. (Note that `?how do I do a t-test` won't return much. It's a syntax based help, not a 'how to').
+      
+  2. *ChatGPT*
+  
+      This is a great tool for checking syntax of general stuff, these bots have a good internal description of the syntax of well discussed topics, so you can double check your code for syntax errors by pasting it into ChatGPT. It might struggle a bit with less used packages and certainly will give you poor advice on how to actually create your analysis.
+  
+  3. *Stack Overflow*
+  
+      A website for contributions on solving particular well-defined and specific (e.g 'how do I extract a column from a table') coding problems. If you have a problem with code then probably someone else has had the same issue asked about it and hopefully go an answer. Googling a coding problem will likely hit a Stack Overflow entry, so start with Google. 
+
 ## References

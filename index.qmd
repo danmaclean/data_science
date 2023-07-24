@@ -42,7 +42,7 @@ The culmination of all this learning and practice will be a written essay and a 
 
 ### Deadlines
 
-~~Here are the course deadlines for the 2022/2023 year.~~
+~~Here are the course deadlines for the 2023/2024 year.~~
 
 Deadlines not yet decided.
 
@@ -73,9 +73,27 @@ library(gt)
 
 ```{r, echo=FALSE, warning=FALSE, Message=FALSE}
 tibble::tibble(
-    `Date` = c("2022-11-25 13:00", "2022-12-02 13:00", "2022-12-09 13:00", "2022-12-16 13:00", "2023-1-13 13:00", "2023-1-20 13:00", "2023-1-27 13:00", "2023-2-23 13:00" ),
-    `Session` = c("Course Intro and Intro to Genomics", "Intro to Genomics and Databases", "Data Exploration and Visualisation", "Understanding Statistics", "Literate Computation", "Beginning Programming", "Non-Frequentist Stats", "Machine Learning"),
-    `Location` = c(rep("MSc Suite", 8))
+    `Date` = c("2023-11-23 10:00", 
+               "2022-11-30 10:00", 
+               "2023-12-07 10:00", 
+               "2023-12-12 10:00", "2023-12-15 14:00", 
+               "2024-1-09 10:00", "2024-1-12 14:00", 
+               "2024-1-16 10:00",  "2024-1-19 14:00",
+               "2024-1-23 10:00", "2024-1-26 14:00",
+               "2024-1-30 10:00", "2024-2-02 14:00"
+               
+               ),
+    
+    `Session` = c("Course Intro and Intro to Genomics", 
+                  "Intro to Genomics", 
+                  "Intro to Genomics and Databases", 
+                  "Data Exploration and Visualisation Intro", "Data Exploration and Visualisation Recap",
+                  "Understanding Statistics Intro", "Understanding Statistics Recap",
+                  "More Understanding Stats/Literate Computation Intro", "More Understanding Stats/Literate Computation Recap",
+                  "Non-Frequentist Stats Intro", "Non-Frequentist Stats Recap",
+                  
+                  "Flexible Session Intro", "Flexible Session Recap"),
+    `Location` = c(rep("MSc Suite", 13))
 )     %>% 
 
 gt() %>% 

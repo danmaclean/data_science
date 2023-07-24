@@ -5,7 +5,8 @@ project:
 book:
   title: "Data Science - Global Plant Health MSc Course"
   author: "Dan MacLean"
-  date: "May 2022"
+  date: last-modified
+  date-format: "MMMM, YYYY"
   search: true
   downloads: [pdf, epub]
   sharing: [twitter, facebook]
