@@ -9,8 +9,8 @@ Genomics is a big field with wide use within biology. On the Global Plant Health
 As a source for this we will follow the excellent Data Carpentry Genomics Curriculum [https://datacarpentry.org/lessons/#genomics-workshop](https://datacarpentry.org/lessons/#genomics-workshop). We will do the following two lessons, tailored to TSL.
 
 
-  1. [Shell Genomics](https://clarajegousse.github.io/tsl-shell-genomics/)
-  2. [Data Wrangling and Processing for Genomics](https://clarajegousse.github.io/tsl-wrangling-genomics/)
+  1. [Shell Genomics](https://teammaclean.github.io/tsl-shell-genomics/)
+  2. [Data Wrangling and Processing for Genomics](https://teammaclean.github.io/tsl-wrangling-genomics/)
   
 We will also use these materials  
   
