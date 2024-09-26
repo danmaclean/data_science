@@ -40,11 +40,6 @@ Sections 1,2,3 and 7 are considered the core parts and each has guided study par
 
 The culmination of all this learning and practice will be a written essay and a data analysis project on which you will be assessed and receive a grade. These will be set during the course and deadlines will be given to you explicitly for each. You will not be formally assessed on other projects, quizzes and challenges occurring through the course.
 
-### Deadlines
-
-~~Here are the course deadlines for the 2023/2024 year.~~
-
-Deadlines not yet decided.
 
 ```{r,echo=FALSE, warning =FALSE, message=FALSE}
 library(lubridate)
@@ -69,18 +64,18 @@ library(gt)
 
 ```
 
-## Schedule 2022/2023
+## Schedule 2024/2025
 
 ```{r, echo=FALSE, warning=FALSE, Message=FALSE}
 tibble::tibble(
-    `Date` = c("2023-11-23 10:00", 
-               "2022-11-30 10:00", 
-               "2023-12-07 10:00", 
-               "2023-12-12 10:00", "2023-12-15 14:00", 
-               "2024-1-09 10:00", "2024-1-12 14:00", 
-               "2024-1-16 10:00",  "2024-1-19 14:00",
-               "2024-1-23 10:00", "2024-1-26 14:00",
-               "2024-1-30 10:00", "2024-2-02 14:00"
+    `Date` = c("2024-11-21 10:00", 
+               "2024-11-28 10:00", 
+               "2024-12-05 10:00", 
+               "2024-12-10 10:00", "2024-12-13 14:00", 
+               "2025-1-07 10:00", "2025-1-10 14:00", 
+               "2025-1-14 10:00",  "2025-1-17 14:00",
+               "2025-1-21 10:00", "2025-1-24 14:00",
+               "2025-1-28 10:00", "2025-1-31 14:00"
                
                ),
     
@@ -94,12 +89,12 @@ tibble::tibble(
                   
                   "Flexible Session Intro", "Flexible Session Recap"),
     `Location` = c(rep("MSc Suite", 13))
-)     %>% 
+)     |>
 
-gt() %>% 
+gt() |> 
         tab_header(
-            title = "Data Science Schedule 2022/2023"
-        ) %>% 
+            title = "Data Science Schedule 2024/2025"
+        ) |> 
         fmt_datetime(
             columns = c(Date)
         ) 
