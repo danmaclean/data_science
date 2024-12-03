@@ -30,6 +30,9 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    other-links:
+      - text: Data Science ChatBot
+        href: https://tsl-bioinformatics.shinyapps.io/test_elmer/
   pdf:
     documentclass: scrreprt
 
