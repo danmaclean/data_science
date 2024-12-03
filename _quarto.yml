@@ -33,6 +33,7 @@ format:
     other-links:
       - text: Data Science ChatBot
         href: https://tsl-bioinformatics.shinyapps.io/test_elmer/
+        target: _blank
   pdf:
     documentclass: scrreprt
 
